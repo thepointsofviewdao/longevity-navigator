@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Semantic Status Colors
+        status: {
+          normal: "hsl(var(--status-normal))",
+          "normal-foreground": "hsl(var(--status-normal-foreground))",
+          warning: "hsl(var(--status-warning))",
+          "warning-foreground": "hsl(var(--status-warning-foreground))",
+          critical: "hsl(var(--status-critical))",
+          "critical-foreground": "hsl(var(--status-critical-foreground))",
+          neutral: "hsl(var(--status-neutral))",
+          "neutral-foreground": "hsl(var(--status-neutral-foreground))",
+          none: "hsl(var(--status-none))",
+          "none-foreground": "hsl(var(--status-none-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
